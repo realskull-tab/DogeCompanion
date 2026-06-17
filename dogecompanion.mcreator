@@ -65,6 +65,19 @@
           "src/main/java/net/mcreator/dogecompanion/procedures/BasicKibbleItemIsCraftedsmeltedProcedure.java"
         ]
       }
+    },
+    {
+      "name": "BasicKibbleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_kibble_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/recipes/basic_kibble_recipe.json",
+          "src/main/resources/data/dogecompanion/recipe/basic_kibble_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
