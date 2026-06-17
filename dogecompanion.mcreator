@@ -188,6 +188,24 @@
           "src/main/resources/data/dogecompanion/advancement/you_killedthedoge.json"
         ]
       }
+    },
+    {
+      "name": "DogeEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doge_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/procedures/DogeEntityDiesProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -217,13 +235,10 @@
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntities.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModModels.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {
