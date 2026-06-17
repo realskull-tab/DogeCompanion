@@ -22,6 +22,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dogecompanion.init.DogecompanionModTabs;
 import net.mcreator.dogecompanion.init.DogecompanionModItems;
+import net.mcreator.dogecompanion.init.DogecompanionModEntities;
 
 import javax.annotation.Nullable;
 
@@ -50,6 +51,7 @@ public class DogecompanionMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		DogecompanionModItems.REGISTRY.register(modEventBus);
+		DogecompanionModEntities.REGISTRY.register(modEventBus);
 		DogecompanionModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
