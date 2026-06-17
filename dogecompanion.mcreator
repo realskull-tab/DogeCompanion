@@ -149,6 +149,20 @@
       }
     },
     {
+      "name": "DogeHut",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doge_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/worldgen/structure_set/doge_hut.json",
+          "src/main/resources/data/dogecompanion/worldgen/structure/doge_hut.json",
+          "src/main/resources/data/dogecompanion/worldgen/template_pool/doge_hut.json"
+        ]
+      }
+    },
+    {
       "name": "Doge",
       "type": "livingentity",
       "compiles": true,
@@ -164,16 +178,14 @@
       }
     },
     {
-      "name": "DogeHut",
-      "type": "structure",
+      "name": "YouKilledthedoge",
+      "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "doge_hut",
+      "registry_name": "you_killedthedoge",
       "metadata": {
         "files": [
-          "src/main/resources/data/dogecompanion/worldgen/structure_set/doge_hut.json",
-          "src/main/resources/data/dogecompanion/worldgen/structure/doge_hut.json",
-          "src/main/resources/data/dogecompanion/worldgen/template_pool/doge_hut.json"
+          "src/main/resources/data/dogecompanion/advancement/you_killedthedoge.json"
         ]
       }
     }
@@ -199,20 +211,16 @@
       "advancements.atedogefoodpremium.title": "Pfft, not much better",
       "advancements.atedogefoodpremium.descr": "Are you a good boi too?",
       "advancements.very_tasty.title": "Very Tasty!",
-      "advancements.very_tasty.descr": "Craft some premium kibble.",
-      "entity.dogecompanion.doge": "Doge"
+      "advancements.very_tasty.descr": "Craft some premium kibble."
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntityRenderers.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModModels.java"
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {
