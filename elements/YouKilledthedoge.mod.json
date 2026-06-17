@@ -2,8 +2,8 @@
   "_fv": 85,
   "_type": "achievement",
   "definition": {
-    "achievementName": "You killed the Doge?, shame on you",
-    "achievementDescription": "why on earth would you do that,  may it rest in peace",
+    "achievementName": "You killed the Doge? Shame on you.",
+    "achievementDescription": "Why on earth would you do that, may it rest in peace.",
     "achievementIcon": {
       "value": "Blocks.WITHER_ROSE"
     },

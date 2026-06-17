@@ -188,6 +188,24 @@
           "src/main/resources/data/dogecompanion/advancement/you_killedthedoge.json"
         ]
       }
+    },
+    {
+      "name": "DogeEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doge_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/procedures/DogeEntityDiesProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -211,16 +229,22 @@
       "advancements.atedogefoodpremium.title": "Pfft, not much better",
       "advancements.atedogefoodpremium.descr": "Are you a good boi too?",
       "advancements.very_tasty.title": "Very Tasty!",
-      "advancements.very_tasty.descr": "Craft some premium kibble."
+      "advancements.very_tasty.descr": "Craft some premium kibble.",
+      "entity.dogecompanion.doge": "Doge",
+      "advancements.you_killedthedoge.descr": "Why on earth would you do that, may it rest in peace.",
+      "advancements.you_killedthedoge.title": "You killed the Doge? Shame on you."
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntityRenderers.java",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModEntities.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModModels.java"
     ]
   },
   "foldersRoot": {
