@@ -1,11 +1,6 @@
 package net.mcreator.dogecompanion.procedures;
 
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.advancements.AdvancementProgress;
-import net.minecraft.advancements.AdvancementHolder;
+import net.neoforged.bus.api.Event;
 
 public class DogeEntityDiesProcedure {
 	public static void execute(DamageSource damagesource) {
