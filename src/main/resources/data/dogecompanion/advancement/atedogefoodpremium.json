@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "advancements.atedogefoodpremium.title"
+    },
+    "description": {
+      "translate": "advancements.atedogefoodpremium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "atedogefoodpremium_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "dogecompanion:premium_kibble"
+        }
+      }
+    }
+  },
+  "parent": "dogecompanion:such_food"
+}

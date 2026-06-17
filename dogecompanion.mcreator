@@ -105,6 +105,18 @@
           "src/main/resources/data/dogecompanion/advancement/recipes/premium_kibble_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Atedogefoodpremium",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atedogefoodpremium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/atedogefoodpremium.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -124,7 +136,9 @@
       "advancements.ate_doge_food.descr": "You ate the Doge\u0027s favorite snack. Hope it was worth it.",
       "advancements.ate_doge_food.title": "Very hunger, Such Regret",
       "item.dogecompanion.basic_kibble": "Basic Kibble",
-      "item.dogecompanion.premium_kibble": "Premium Kibble"
+      "item.dogecompanion.premium_kibble": "Premium Kibble",
+      "advancements.atedogefoodpremium.title": "Pfft, not much better",
+      "advancements.atedogefoodpremium.descr": "Are you a good boi too? (feed the doge)"
     }
   },
   "metadata": {
