@@ -19,5 +19,6 @@ public class DogecompanionModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SUCH_TAB = REGISTRY.register("such_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dogecompanion.such_tab")).icon(() -> new ItemStack(Items.COOKED_COD)).displayItems((parameters, tabData) -> {
 				tabData.accept(DogecompanionModItems.BASIC_KIBBLE.get());
+				tabData.accept(DogecompanionModItems.PREMIUM_KIBBLE.get());
 			}).build());
 }

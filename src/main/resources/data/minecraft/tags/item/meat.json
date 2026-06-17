@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dogecompanion:basic_kibble"
+    "dogecompanion:basic_kibble",
+    "dogecompanion:premium_kibble"
   ]
 }
