@@ -44,10 +44,12 @@ public class DogeRenderer extends MobRenderer<DogeEntity, LivingEntityRenderStat
 	private static final class AnimatedModel extends Modeldoge {
 		private DogeEntity entity = null;
 		private final KeyframeAnimation keyframeAnimation0;
+		private final KeyframeAnimation keyframeAnimation1;
 
 		public AnimatedModel(ModelPart root) {
 			super(root);
-			this.keyframeAnimation0 = safeBake(doge3withanimationsAnimation.animation);
+			this.keyframeAnimation0 = safeBake(doge3withanimationsAnimation.WALK_RAGEBAIT);
+			this.keyframeAnimation1 = safeBake(doge3withanimationsAnimation.WALK_RAGEBAIT);
 		}
 
 		private KeyframeAnimation safeBake(AnimationDefinition source) {
@@ -66,6 +68,7 @@ public class DogeRenderer extends MobRenderer<DogeEntity, LivingEntityRenderStat
 		public void setupAnim(LivingEntityRenderState state) {
 			this.root().getAllParts().forEach(ModelPart::resetPose);
 			this.keyframeAnimation0.applyWalk(state.walkAnimationPos, state.walkAnimationSpeed, 1f, 1f);
+			this.keyframeAnimation1.apply(entity.animationState1, state.ageInTicks, 1f);
 			super.setupAnim(state);
 		}
 	}

@@ -26,6 +26,8 @@ import net.mcreator.dogecompanion.init.DogecompanionModItems;
 import net.mcreator.dogecompanion.init.DogecompanionModEntities;
 
 public class DogeEntity extends Wolf {
+	public final AnimationState animationState1 = new AnimationState();
+
 	public DogeEntity(EntityType<DogeEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
@@ -71,6 +73,14 @@ public class DogeEntity extends Wolf {
 	public void die(DamageSource source) {
 		super.die(source);
 		DogeEntityDiesProcedure.execute(source);
+	}
+
+	@Override
+	public void tick() {
+		super.tick();
+		if (this.level().isClientSide()) {
+			this.animationState1.animateWhen(true, this.tickCount);
+		}
 	}
 
 	@Override

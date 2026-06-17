@@ -25,10 +25,18 @@
     "animations": [
       {
         "animation": {
-          "value": "CUSTOM:doge3withanimationsAnimation.animation"
+          "value": "CUSTOM:doge3withanimationsAnimation.WALK_RAGEBAIT"
         },
         "speed": 1.0,
         "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": {
+          "value": "CUSTOM:doge3withanimationsAnimation.WALK_RAGEBAIT"
+        },
+        "speed": 1.0,
+        "walking": false,
         "amplitude": 1.0
       }
     ],
