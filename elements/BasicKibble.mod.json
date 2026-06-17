@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:trial_key",
+    "texture": "kibblebasic",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
