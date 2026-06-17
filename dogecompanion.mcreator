@@ -47,6 +47,24 @@
           "src/main/resources/assets/dogecompanion/items/basic_kibble.json"
         ]
       }
+    },
+    {
+      "name": "BasicKibbleItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_kibble_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/procedures/BasicKibbleItemIsCraftedsmeltedProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -69,9 +87,11 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {
