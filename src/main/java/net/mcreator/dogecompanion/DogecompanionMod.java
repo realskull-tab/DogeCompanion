@@ -20,6 +20,9 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dogecompanion.init.DogecompanionModTabs;
+import net.mcreator.dogecompanion.init.DogecompanionModItems;
+
 import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -46,6 +49,8 @@ public class DogecompanionMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		DogecompanionModItems.REGISTRY.register(modEventBus);
+		DogecompanionModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

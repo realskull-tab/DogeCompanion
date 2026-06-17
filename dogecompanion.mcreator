@@ -1,17 +1,79 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SuchTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "such_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AteDogeFood",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ate_doge_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/ate_doge_food.json"
+        ]
+      }
+    },
+    {
+      "name": "SuchFood",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "such_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/such_food.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicKibble",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_kibble",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/item/BasicKibbleItem.java",
+          "src/main/resources/assets/dogecompanion/models/item/basic_kibble.json",
+          "src/main/resources/assets/dogecompanion/items/basic_kibble.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:BasicKibble"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.dogecompanion.such_tab": "Such Tab!",
+      "advancements.ate_doge_food.descr": "You ate the Doge\u0027s favorite snack. Hope it was worth it.",
+      "advancements.ate_doge_food.title": "Very hunger, Such Regret",
+      "advancements.such_food.descr": "Craft some basic kibble",
+      "advancements.such_food.title": "Such Food!",
+      "item.dogecompanion.basic_kibble": "Basic Kibble"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {

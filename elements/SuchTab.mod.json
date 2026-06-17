@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Such Tab!",
+    "icon": {
+      "value": "Items.COOKED_FISH#0"
+    },
+    "showSearch": false
+  }
+}
