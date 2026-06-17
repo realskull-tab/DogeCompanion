@@ -87,9 +87,9 @@
       "registry_name": "premium_kibble",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dogecompanion/item/PremiumKibbleItem.java",
           "src/main/resources/assets/dogecompanion/models/item/premium_kibble.json",
-          "src/main/resources/assets/dogecompanion/items/premium_kibble.json"
+          "src/main/resources/assets/dogecompanion/items/premium_kibble.json",
+          "src/main/java/net/mcreator/dogecompanion/item/PremiumKibbleItem.java"
         ]
       }
     },
@@ -117,6 +117,36 @@
           "src/main/resources/data/dogecompanion/advancement/atedogefoodpremium.json"
         ]
       }
+    },
+    {
+      "name": "VeryTasty",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_tasty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/very_tasty.json"
+        ]
+      }
+    },
+    {
+      "name": "PremiumKibbleItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "premium_kibble_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/procedures/PremiumKibbleItemIsCraftedsmeltedProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -138,16 +168,18 @@
       "item.dogecompanion.basic_kibble": "Basic Kibble",
       "item.dogecompanion.premium_kibble": "Premium Kibble",
       "advancements.atedogefoodpremium.title": "Pfft, not much better",
-      "advancements.atedogefoodpremium.descr": "Are you a good boi too? (feed the doge)"
+      "advancements.atedogefoodpremium.descr": "Are you a good boi too?",
+      "advancements.very_tasty.title": "Very Tasty!",
+      "advancements.very_tasty.descr": "Craft some premium kibble."
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {

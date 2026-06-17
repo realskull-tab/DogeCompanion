@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Pfft, not much better",
-    "achievementDescription": "Are you a good boi too? (feed the doge)",
+    "achievementDescription": "Are you a good boi too?",
     "achievementIcon": {
       "value": "Items.COOKED_PORKCHOP"
     },
@@ -17,7 +17,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:SuchFood"
+      "value": "CUSTOM:VeryTasty"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"183\" y=\"72\"><next><block type=\"item_consumed\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:PremiumKibble</field></block></value></block></next></block></xml>"
   }

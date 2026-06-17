@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "advancements.very_tasty.title"
+    },
+    "description": {
+      "translate": "advancements.very_tasty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "very_tasty_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dogecompanion:such_food"
+}
