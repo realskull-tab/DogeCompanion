@@ -47,7 +47,7 @@ public class DogeRenderer extends MobRenderer<DogeEntity, LivingEntityRenderStat
 
 		public AnimatedModel(ModelPart root) {
 			super(root);
-			this.keyframeAnimation0 = safeBake(doge3withanimationsAnimation.animationwalking);
+			this.keyframeAnimation0 = safeBake(doge3withanimationsAnimation.animation);
 		}
 
 		private KeyframeAnimation safeBake(AnimationDefinition source) {

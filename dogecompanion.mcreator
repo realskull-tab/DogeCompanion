@@ -165,7 +165,7 @@
     {
       "name": "Doge",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "doge",
       "metadata": {
@@ -198,8 +198,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "damagesource",
+            "type": "damagesource"
           }
         ],
         "files": [

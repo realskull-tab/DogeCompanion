@@ -70,7 +70,7 @@ public class DogeEntity extends Wolf {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DogeEntityDiesProcedure.execute(this);
+		DogeEntityDiesProcedure.execute(source);
 	}
 
 	@Override
