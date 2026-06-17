@@ -58,13 +58,22 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.such_food.descr": "Craft some basic kibble",
+      "advancements.such_food.title": "Such Food!",
+      "item_group.dogecompanion.such_tab": "Such Tab!",
+      "advancements.ate_doge_food.descr": "You ate the Doge\u0027s favorite snack. Hope it was worth it.",
+      "advancements.ate_doge_food.title": "Very hunger, Such Regret",
+      "item.dogecompanion.basic_kibble": "Basic Kibble"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {
