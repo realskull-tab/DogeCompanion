@@ -42,8 +42,8 @@
       "registry_name": "basic_kibble",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dogecompanion/item/BasicKibbleItem.java",
           "src/main/resources/assets/dogecompanion/models/item/basic_kibble.json",
+          "src/main/java/net/mcreator/dogecompanion/item/BasicKibbleItem.java",
           "src/main/resources/assets/dogecompanion/items/basic_kibble.json"
         ]
       }
@@ -58,13 +58,17 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.dogecompanion.basic_kibble": "Basic Kibble"
+    }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
