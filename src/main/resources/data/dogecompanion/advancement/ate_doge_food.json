@@ -16,7 +16,12 @@
   },
   "criteria": {
     "ate_doge_food_0": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "dogecompanion:basic_kibble"
+        }
+      }
     }
   },
   "parent": "dogecompanion:such_food"

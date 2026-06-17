@@ -42,9 +42,40 @@
       "registry_name": "basic_kibble",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dogecompanion/models/item/basic_kibble.json",
           "src/main/java/net/mcreator/dogecompanion/item/BasicKibbleItem.java",
+          "src/main/resources/assets/dogecompanion/models/item/basic_kibble.json",
           "src/main/resources/assets/dogecompanion/items/basic_kibble.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicKibbleItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_kibble_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/dogecompanion/procedures/BasicKibbleItemIsCraftedsmeltedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BasicKibbleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_kibble_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dogecompanion/advancement/recipes/basic_kibble_recipe.json",
+          "src/main/resources/data/dogecompanion/recipe/basic_kibble_recipe.json"
         ]
       }
     }
@@ -59,16 +90,21 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "advancements.such_food.descr": "Craft some basic kibble",
+      "advancements.such_food.title": "Such Food!",
+      "item_group.dogecompanion.such_tab": "Such Tab!",
+      "advancements.ate_doge_food.descr": "You ate the Doge\u0027s favorite snack. Hope it was worth it.",
+      "advancements.ate_doge_food.title": "Very hunger, Such Regret",
       "item.dogecompanion.basic_kibble": "Basic Kibble"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModItems.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/dogecompanion/DogecompanionMod.java",
-      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dogecompanion/init/DogecompanionModTabs.java"
     ]
   },
   "foldersRoot": {
